@@ -1,0 +1,43 @@
+body {
+  background: rgb(206, 206, 223);
+}
+.textCountry {
+  text-align: center;
+}
+
+.inputConteiner {
+  margin-top: 70px;
+}
+.input {
+  border: 2px solid rgb(39, 6, 82);
+  border-radius: 5px;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 30px;
+}
+.titleCountry {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 10px;
+}
+.flag {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+}
+.conuntryContainer_js {
+  display: flex;
+  justify-content: center;
+}
+.textCountry {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.headingContry {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
