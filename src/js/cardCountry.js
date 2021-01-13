@@ -17,7 +17,6 @@ function onSearch() {
   }
   fetchCountries(searchQuery)
     .then(data => {
-      refs.containerCountry.innerHTML = '';
       if (data.length > 10) {
         return showError(
           'Введите название страны точнее');
